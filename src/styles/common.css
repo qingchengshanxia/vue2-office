@@ -1,0 +1,77 @@
+/*
+* @Author: lhl
+* @Date:   2018-05-23 21:16:23
+* @Last Modified by:   lhl
+* @Last Modified time: 2018-05-23 21:17:27
+*/
+
+
+/*清楚浮动*/
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+div::-webkit-scrollbar,
+aside::-webkit-scrollbar,
+p::-webkit-scrollbar,
+main::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+/*定义滚动条的轨道，内阴影及圆角*/
+div::-webkit-scrollbar-track,
+aside::-webkit-scrollbar-track,
+p::-webkit-scrollbar-track,
+main::-webkit-scrollbar-track{
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    width:8px;
+    height:8px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+/*定义滑块，内阴影及圆角*/
+div::-webkit-scrollbar-thumb,
+aside::-webkit-scrollbar-thumb,
+p::-webkit-scrollbar-thumb,
+main::-webkit-scrollbar-thumb{
+    width: 8px;
+    height:8px;
+    border-radius: 8px;
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #C8C9CC;
+}
