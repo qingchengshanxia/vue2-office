@@ -38,12 +38,11 @@
     │   ├── styles                 // 全局样式
     │   ├── utils                  // 全局公用方法
     │   ├── vendor                 // 公用vendor
-    │   ├── views                  // view
+    │   ├── views                  // view 页面组件
     │   ├── App.vue                // 入口页面
     │   ├── main.js                // 入口 加载组件 初始化等
     │   ├── menu.js                // 配置菜单
     │   ├── permission.js          // 权限管理
-    │   └── mock.js                // mockjs文件
     ├── static                     // 第三方不打包资源
     │   └── Tinymce                // 富文本
     ├── .babelrc                   // babel-loader 配置
