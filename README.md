@@ -14,7 +14,7 @@
     vue-animate动画效果支持  
             
 
-一、框架应用技术栈：
+框架应用技术栈：
 --------
     框架：vue2  
     搭建工具：vue-cli/npm/webpack/node
@@ -23,7 +23,7 @@
     工具库：vue-animate/vue-i18n/sass/vue-awesome-swiper
     其它资源：es6/iconfont
 
-二、目录结构说明：
+目录结构说明：
 --------
     ├── build                      // 构建相关
     ├── config                     // 配置相关
@@ -83,7 +83,7 @@
     main.js: 入口 js 文件，影响全局，作用是引入全局使用的库、公共的样式和方法、设置路由等。
 
 
-三、框架搭建步骤：（以下所有命令仅针对win系统）
+框架搭建步骤：（以下所有命令仅针对win系统）
 --------
     1，安装node
         从官网下载node文件，安装，win+r,输入cmd回车，输入命令：node -v,出现版本号则成功。（已经自带npm）
