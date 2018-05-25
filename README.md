@@ -1,27 +1,27 @@
 # vue2-office
 功能说明：
 --------
-    标准的文件构建目录-
-    swiper轮播图-
-    头部和脚部共用-
-    登录控制-
-    非登录端与登录端view主组件区分-
-    axios封装成ajax的数据请求方式，支持跨域-
-    语言国际化-
-    登录密码加密-
-    sass工具快捷写css-
-    阿里巴巴的iconfont支持-
-    vue-animate动画效果支持-
+    标准的文件构建目录\<br>  
+    swiper轮播图\<br>  
+    头部和脚部共用\<br>  
+    登录控制\<br>  
+    非登录端与登录端view主组件区分\<br>  
+    axios封装成ajax的数据请求方式，支持跨域\<br>  
+    语言国际化\<br>  
+    登录密码加密\<br>  
+    sass工具快捷写css\<br>  
+    阿里巴巴的iconfont支持\<br>  
+    vue-animate动画效果支持\<br>  
             
 
 一、框架应用技术栈：
 --------
-    框架：vue2-
-    搭建工具：vue-cli/npm/webpack/node-
-    UI：无-
-    基础库：axios/vue-router-
-    工具库：vue-animate/vue-i18n/sass/vue-awesome-swiper-
-    其它资源：es6/iconfont-
+    框架：vue2\<br>  
+    搭建工具：vue-cli/npm/webpack/node\<br>  
+    UI：无\<br>  
+    基础库：axios/vue-router\<br>  
+    工具库：vue-animate/vue-i18n/sass/vue-awesome-swiper\<br>  
+    其它资源：es6/iconfont\<br>  
 
 二、目录结构说明：
 --------
